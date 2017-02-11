@@ -25,3 +25,12 @@ Configuring Sonarr:
 * From `System -> Connections` add a new connection/notification of type `webhook`.
 * URL is: http://`<IP>`:8080/sonarr
 * METHOD is: POST
+
+Echo System:
+-------------------
+* Telegram bot
+* Sonarr - series downloader
+		* Web hook to python server
+		* Python server (cherrypy)
+	* Coach potato movies downloader
+		* Deluge - torrent downloader
